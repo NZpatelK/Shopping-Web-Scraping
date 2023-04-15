@@ -3,7 +3,7 @@ import pprint
 import json
 
 # writing to mongodb
-client = pymongo.MongoClient('mongodb+srv://green-eco-guy:accenture-team3@cluster0.ensebd0.mongodb.net/?retryWrites=true&w=majority')
+client = pymongo.MongoClient(""" Imsert DB link """)
 db = client['grocer']
 
 # This is the products Collection (table)
